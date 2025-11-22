@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartSpark quizapp</title>
+    <link rel="stylesheet" href="./homepage.css">
+</head>
+
+<body>
+
+    <div class="outer">
+        <nav>
+            <h1 id="title">Smart Spark</h1>
+            <ul>
+                <li>Home</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+            <button id="log" >Login</button>
+        </nav>
+
+        <div class="inner">
+            <h1>welcome to <span id="wd">smart spark</span></h1>
+            <div class="para">
+                <h2>Challenge your mind. Sharpen your skills. Enjoy the thrill of learning.</h2>
+                <p>Here, learning meets creativity. Our quizzes are carefully crafted to challenge your understanding of front-end and back-end technologies while keeping things engaging. Whether you are a student, beginner, or aspiring developer, you will find a perfect place to learn, practice, and master the art of building for the web.</p>
+            </div>
+            
+            <button id="sq">Start Quiz</button>
+        </div>
+
+    </div>
+    <!-- <section>
+        <h1>About Us</h1>
+    </section>
+    <footer>
+        <h1>contact Us</h1>
+    </footer> -->
+    <script>
+        let  login= document.querySelector("#log");
+
+        login.addEventListener("click",()=>{
+             open("./login.html")
+        })
+
+
+        let srtQuiz= document.querySelector("#sq");
+        srtQuiz.addEventListener("click",()=>{
+             open("./login.html")
+        })
+
+
+
+    </script>
+
+
+</body>
+</html>

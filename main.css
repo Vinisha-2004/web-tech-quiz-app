@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-image: url(./images/Untitled\ design\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer>.inner{
+
+    height: 500px;
+    width: 600px;
+    /* background-color: white; */
+    border-radius: 15px;
+    box-shadow: 5px 10px 30px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 50px;
+    position: relative;
+    color: #ffffff;
+
+}
+
+.inner>h1{
+
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+}
+.inner>#ques{
+
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+
+}
+
+.inner>.btn{
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer; 
+    /* transition: all 0.7s ease-in-out; */
+    border: none;
+    box-shadow: 2px 2px 2px black;
+}
+
+.inner>#next-btn{
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+    width: 30%;
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    color: #ffffff;
+    background-color:rgb(20, 0, 90);
+    letter-spacing: 1.5px;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+
+    /* transition: all 0.7s ease-in; */
+}
+
+   .btn:hover{
+    background-color: rgb(20, 0, 90);
+    color: #ffffff;
+    border: none;
+    box-shadow: 2px 2px px blanchedalmond;
+    /* text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold; */
+ 
+
+   }
+   #next-btn:hover{
+    background-color: #ffea00;
+    color: black;
+    /* transform: scale(1.0); */
+   }
+
+   .result-box {
+      display: none;
+      text-align: center;
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      width: 350px;
+    }
+
+
+    .result-box h2 {
+      color: #28a745;
+
+    
+    }
+    .result-box {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background: #fff;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 25px rgba(0,0,0,0.3);
+        height: 250px;
+        width: 300px;
+        
+    }

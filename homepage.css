@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.outer{
+    height: 100vh; 
+    background-image: url(./images/Untitled\ design\ \(3\).png);  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.outer>nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+nav>#title{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+nav>#title::first-letter{
+    font-size: 50px;
+    color: #ff477e;
+
+}
+nav>ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+ul>li{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #ff477e;
+}
+
+nav>#log{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    letter-spacing: 1.2px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ff477e;
+    color:#FFFFFF;
+    box-shadow: 3px 3px 4px rgb(192, 21, 50);
+}
+
+#log:hover{
+
+    background-color: #dddf00;
+    box-shadow: 3px 3px 4px #55a630;
+    color: black;
+}
+.inner{
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+.inner>h1{
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.inner>h1::first-letter{
+    font-size: 50px;
+
+}
+#wd{
+    color: #ff477e;
+    font-style: italic;
+}
+.inner>.para{
+    height: 250px;
+    width: 80%; 
+    padding: 40px ;
+    color: #f9f7f3;
+}
+.para>h2{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    word-spacing: 2px;
+    letter-spacing:2px;
+    font-style: italic;
+}
+.para>h2::first-letter{
+    font-size: 40px;
+
+}
+.para>p{
+    text-indent: 50px;
+    text-align: justify;
+    word-spacing: 2px;
+    letter-spacing:2px;
+    /* font-weight: bold; */
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+
+.para>::first-letter{
+    font-size: 35px;
+
+}
+
+.inner>#sq{
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ff477e;
+    color:#FFFFFF;
+    box-shadow: 3px 3px 4px rgb(192, 21, 50);
+    text-transform: uppercase;
+}
+#sq:hover{
+    background-color:#dddf00;
+    box-shadow: 3px 3px 4px #55a630;
+    color: black;
+}
